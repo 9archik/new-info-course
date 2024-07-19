@@ -1,0 +1,37 @@
+@import "../../App/vars.scss";
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  margin: 12px 0 0 0;
+
+  .penSVG {
+    path {
+      fill: $theme-color;
+      stroke: none;
+    }
+  }
+}
+
+.inputMargin {
+  margin: 30px 0 0 0;
+}
+.addStepBtn {
+  background: transparent;
+  line-height: 18px;
+  font-weight: 600;
+  color: $theme-color;
+  height: 20px;
+  margin: 20px 0 0 0;
+  svg {
+    margin-right: 8px;
+  }
+}
+
+.lastElem {
+  margin-bottom: 120px;
+}

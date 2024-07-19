@@ -1,0 +1,48 @@
+@import "../../../../App/vars.scss";
+.container {
+  margin: 12px 0 0 0;
+  width: 100%;
+
+  .fileItem,
+  .linkItem {
+    margin: 8px 0 0 0;
+    font-weight: 400;
+  }
+
+  .linkItem {
+    background: #f3f4f6;
+    color: black;
+    font-weight: 400;
+    padding: 12px;
+
+    button {
+      background: transparent;
+
+      svg {
+        path {
+          fill: #ababab;
+        }
+      }
+    }
+  }
+
+  .hiddenChild {
+    padding: 0;
+  }
+}
+
+.fileInput {
+  margin: 20px 0 0 0;
+  display: block;
+}
+
+.addLink {
+  margin: 8px 0 0 0;
+}
+
+.deleteStep {
+  background: transparent;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+}

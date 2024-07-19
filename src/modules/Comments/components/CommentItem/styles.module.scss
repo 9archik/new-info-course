@@ -1,0 +1,20 @@
+@import "../../../../App/vars.scss";
+
+.container{
+    margin-top: 16px;
+}
+
+.answerBtn {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.15px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: $theme-color;
+  background: transparent;
+
+  svg {
+    margin-left: 6px;
+    width: 8px;
+  }
+}

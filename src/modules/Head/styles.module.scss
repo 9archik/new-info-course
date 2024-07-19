@@ -1,0 +1,44 @@
+.courseName {
+  margin: 20px 0 0 0;
+}
+
+.speakerName {
+  margin: 36px 0 0 0;
+}
+
+.topName {
+  margin: 40px 0 0 0;
+}
+
+.topToggler {
+  margin: 12px 0 0 0;
+}
+
+.speakerList {
+  margin: 12px 0 0 0;
+}
+
+.scrollContainer {
+  position: relative;
+  overflow: scroll;
+  .content {
+    display: flex;
+    position: absolute;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    justify-content: space-between;
+  }
+}
+
+.themeToggler {
+  margin: 20px 0 0 0;
+}
+
+.card {
+  margin: 32px 0 0 0;
+
+  &:first-child {
+    margin: 16px 0 0 0;
+  }
+}

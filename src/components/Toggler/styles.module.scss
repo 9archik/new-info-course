@@ -1,0 +1,41 @@
+@import "../../App/vars.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.btn {
+  margin-left: 4px;
+  &:first-child {
+    margin: 0;
+  }
+  input {
+    display: none;
+  }
+
+  cursor: pointer;
+
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f4f6;
+    border-radius: 100px;
+    padding: 4px 12px;
+    text-wrap: nowrap;
+
+    &.active {
+      background: $theme-color;
+      color: white;
+    }
+  }
+}

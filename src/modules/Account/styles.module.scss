@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  overflow: auto;
+  margin: 10px 0 0 0;
+}
+
+.listItem {
+  width: 33%;
+  min-width: 135px;
+  &:first-child {
+    margin: 0;
+  }
+
+  margin-left: 12px;
+}

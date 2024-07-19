@@ -1,0 +1,17 @@
+@import "../../App/vars.scss";
+.container {
+  background-color: transparent;
+  justify-content: flex-start;
+  font-weight: 600;
+  color: $theme-color;
+
+  span {
+    display: flex;
+    align-items: center;
+    line-height: 18px;
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+}

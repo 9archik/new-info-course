@@ -1,0 +1,69 @@
+@import "../../../../App/vars.scss";
+
+.container {
+  width: 100%;
+  position: relative;
+  background: transparent;
+  height: 200px;
+  padding: 0 16px;
+}
+
+.info {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  margin: 8px 0 0 0;
+
+  .bold {
+    line-height: 16px;
+  }
+
+  .theme {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #97a0a7;
+  }
+}
+
+.fileInputCont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addFileCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: $theme-color;
+    width: 46px;
+    height: 46px;
+
+    svg {
+      margin: 0;
+      path {
+        fill: white;
+        stroke: white;
+      }
+    }
+  }
+
+  .addVideoText {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 12px 0 0 0;
+  }
+}

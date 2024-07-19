@@ -1,0 +1,30 @@
+@import "../../App/vars.scss";
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+
+  .bottom {
+    padding-bottom: 0;
+  }
+}
+
+.input {
+  margin: 12px 0 0 0;
+
+  .penSVG {
+    path {
+      fill: $theme-color;
+      stroke: none;
+    }
+  }
+}
+
+.addFileBtn {
+  margin: 8px 0 0 0;
+}
+
+.addLinkBtn {
+  margin: 20px 0 0 0;
+}

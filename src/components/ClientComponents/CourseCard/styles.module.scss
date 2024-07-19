@@ -1,0 +1,84 @@
+@import "../../../App/vars.scss";
+.container {
+  display: block;
+  color: black;
+}
+
+.card {
+  width: 100%;
+  border-radius: 15px;
+  background: #f3f4f6;
+  display: flex;
+  justify-content: space-between;
+  min-height: 170px;
+  padding: 16px;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+}
+
+.cardInfo {
+  width: 50%;
+}
+
+.lesNum {
+  margin: 8px 0 0 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgb(192, 192, 192);
+}
+
+.name {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.params {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 0 0;
+
+  li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(192, 192, 192);
+    margin-left: 16px;
+
+    &:first-child {
+      color: $theme-color;
+      margin: 0;
+
+      svg {
+        width: 14px;
+      }
+    }
+
+    svg {
+      margin-right: 4px;
+    }
+
+    span {
+      display: block;
+      transform: translateY(1px);
+      line-height: 16px;
+    }
+  }
+}

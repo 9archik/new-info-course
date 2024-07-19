@@ -1,0 +1,25 @@
+@import "../../App/vars.scss";
+.container {
+  background-color: #efe9ff;
+  display: flex;
+  align-items: center;
+  min-height: 42px;
+  color: $theme-color;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 5px;
+  padding: 0 9px 0 12px;
+
+  span {
+    flex: 1 1 auto;
+  }
+}
+
+.deleteBtn {
+  min-width: 24px;
+  min-height: 24px;
+  path {
+    fill: $theme-color;
+  }
+}

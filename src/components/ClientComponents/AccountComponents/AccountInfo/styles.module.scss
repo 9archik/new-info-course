@@ -1,0 +1,39 @@
+@import "../../../../App/vars.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0 0;
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.info {
+  flex: 1 0 auto;
+  margin-left: 12px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
+
+.username {
+  color: $theme-color;
+}
+
+.status {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.52px;
+  text-align: center;
+  padding: 8px 10px;
+  background: #946eff1a;
+  color: $theme-color;
+  border-radius: 100px;
+}

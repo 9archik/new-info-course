@@ -1,0 +1,22 @@
+.container {
+  background-color: white;
+  border-radius: 10px;
+  width:100%;
+}
+
+.name {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+
+  span {
+    width: 100%;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+  }
+}
+
+.childCont {
+  padding: 0px 16px 12px 16px;
+}

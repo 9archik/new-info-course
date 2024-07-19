@@ -1,0 +1,25 @@
+@import "../../App/vars.scss";
+.container {
+  background-color: transparent;
+  width: 100%;
+  input {
+    display: none;
+  }
+}
+
+.inputCont {
+  display: flex;
+  align-items: center;
+  color: $theme-color;
+  font-weight: 600;
+  line-height: 18px;
+  color: $theme-color;
+  cursor: pointer;
+
+  svg {
+    path {
+      stroke: $theme-color;
+    }
+    margin-right: 8px;
+  }
+}

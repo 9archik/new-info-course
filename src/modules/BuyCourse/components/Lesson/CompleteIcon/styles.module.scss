@@ -1,0 +1,11 @@
+@import "../../../../../App/vars.scss";
+
+.icon {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: $theme-color;
+}

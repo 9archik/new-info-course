@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  overflow: scroll;
+  ul {
+    display: flex;
+    position: absolute;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    justify-content: space-between;
+
+    li {
+      margin-left: 12px;
+
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+}

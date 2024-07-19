@@ -1,0 +1,13 @@
+@import "../../../App/vars.scss";
+
+.container {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  display: flex;
+
+  color: $theme-color;
+}

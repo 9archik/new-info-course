@@ -1,0 +1,26 @@
+@import "../../App/vars.scss";
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    background-color: $input-bg-color;
+    border-radius: 5px;
+
+    span{
+        flex: 1 0 auto;
+        display: block;
+        margin-left: 8px;
+    }
+
+    button{
+        min-width: 24px;
+        min-height: 24px;
+        background: transparent;
+    }
+}
+

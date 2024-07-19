@@ -1,0 +1,52 @@
+@import "../../App/vars.scss";
+
+.container {
+  margin-bottom: 120px;
+}
+
+.video {
+  border-radius: 15px;
+}
+
+.author {
+  margin: 16px 0 0 0;
+}
+
+.name {
+  margin: 4px 0 0 0;
+}
+
+.info {
+  margin: 4px 0 12px 0;
+}
+
+.title {
+  margin: 40px 0 0 0;
+}
+
+.btnList {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0 0;
+
+  .btn {
+    margin-left: 8px;
+  }
+}
+
+.comBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2eefc;
+  color: $theme-color;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18.15px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  min-height: 58px;
+  padding: 0 16px;
+  margin: 12px 0 0 0;
+}

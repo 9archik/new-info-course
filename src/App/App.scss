@@ -1,0 +1,83 @@
+@import "./vars.scss";
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+body,
+#root {
+  min-height: 100vh;
+}
+
+.h-full {
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+/*IE9*/
+*::selection {
+  background-color: transparent;
+}
+*::-moz-selection {
+  background-color: transparent;
+}
+* {
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  /*IE10*/
+  -ms-user-select: none;
+  user-select: none;
+
+  /*You just need this if you are only concerned with android and not desktop browsers.*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input[type="text"],
+textarea,
+[contenteditable] {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.marginClientNavbar {
+  padding-bottom: 100px;
+}

@@ -1,0 +1,22 @@
+@import "../../App/vars.scss";
+
+.container {
+  width: 100%;
+  display: flex;
+
+  button {
+    width: 50%;
+    background: transparent;
+    color: $theme-color;
+    font-size: 17px;
+    line-height: 22px;
+    min-height: 46px;
+    padding: 0 12px;
+    text-align: center;
+
+    &:last-child {
+      font-weight: 500;
+      border-left: 1px solid #3c3c435c;
+    }
+  }
+}

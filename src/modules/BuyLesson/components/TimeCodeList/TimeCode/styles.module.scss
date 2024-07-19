@@ -1,0 +1,27 @@
+@import "../../../../../App/vars.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 0 0;
+}
+
+.time {
+  font-weight: 500;
+  line-height: 16.94px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  padding: 4px 10px;
+  color: $theme-color;
+  border-radius: 100px;
+  background: #946eff1a;
+  min-width: 57px;
+}
+
+.name {
+  margin: 0 0 0 4px;
+  font-weight: 500;
+  line-height: 16.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}

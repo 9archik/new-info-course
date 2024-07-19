@@ -1,0 +1,22 @@
+@import "../../App/vars.scss";
+
+.title {
+  margin: 12px 0 0 0;
+}
+
+.commentPopup {
+  .submitBtn {
+    margin: 16px 0 0 0;
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    border-radius: 50px;
+    background-color: $theme-color;
+  }
+}
+
+.commentInput {
+  margin: 12px 0 0 0;
+}

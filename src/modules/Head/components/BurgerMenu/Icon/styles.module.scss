@@ -1,0 +1,20 @@
+@import "../../../../../App/vars.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  flex: 0 0 auto;
+  background: #946eff1a;
+  border-radius: 8px;
+
+  svg {
+    path {
+      fill: $theme-color;
+    }
+  }
+}
+
+

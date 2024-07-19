@@ -1,0 +1,54 @@
+@import "../../App/vars.scss";
+
+.panel {
+  width: 100%;
+  background: white;
+  display: flex;
+  padding: 16px;
+  border-bottom: 1px solid #e7e7e7;
+
+  div,
+  button {
+    width: 100%;
+  }
+}
+
+.addBtn {
+  background: $theme-color;
+  color: white;
+  font-weight: 500;
+  line-height: 16px;
+  height: 41px;
+  margin-left: 10px;
+  border-radius: 5px;
+  svg {
+    margin-left: 8px;
+    width: 13px;
+    height: 13px;
+
+    path {
+      fill: white;
+      stroke: white;
+    }
+  }
+
+  &.disabled {
+    background: rgb(201, 183, 255);
+  }
+}
+
+.timeCodeBtn {
+  justify-content: space-between;
+  padding: 16px;
+  background-color: white;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 600;
+  width: 100%;
+
+  svg {
+    path {
+      stroke: black;
+    }
+  }
+}

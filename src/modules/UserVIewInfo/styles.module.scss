@@ -1,0 +1,24 @@
+.searchInput {
+  background: #f3f4f6;
+  color: #97a0a7;
+
+  svg {
+    transform: translateY(-1px);
+  }
+
+  input {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.listItem {
+  &:first-child {
+    margin: 20px 0 0 0;
+  }
+  margin: 16px 0 0 0;
+}
+
+.title {
+  margin: 12px 0 0 0;
+}

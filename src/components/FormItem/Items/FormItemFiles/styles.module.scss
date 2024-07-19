@@ -1,0 +1,21 @@
+.input {
+  margin: 16px 0 8px 0;
+  display: block;
+
+  &:first-child {
+    margin-top: 8px;
+  }
+
+  .svg {
+    path {
+      stroke: none;
+    }
+  }
+}
+
+.linkItem {
+  &:first-child {
+    margin: 0;
+  }
+  margin: 8px 0 0 0;
+}

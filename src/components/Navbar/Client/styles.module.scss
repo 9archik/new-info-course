@@ -1,0 +1,54 @@
+@import "../../../App/vars.scss";
+.container {
+  background-color: white;
+  height: 66px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px -4px 34px 0px #34445e14;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 75px;
+  min-height: 49px;
+  padding: 0 16px;
+  color: #c0c0c0;
+  font-size: 12px;
+  line-height: 15px;
+
+
+  span {
+    display: block;
+    margin: 4px 0 0 0;
+  }
+
+  &.catalog {
+    path {
+      stroke: #c0c0c0;
+    }
+  }
+
+  &.active {
+    &.catalog {
+      path {
+        fill: none;
+        stroke: $theme-color;
+      }
+    }
+
+    color: $theme-color;
+
+    path {
+      fill: $theme-color;
+    }
+  }
+}

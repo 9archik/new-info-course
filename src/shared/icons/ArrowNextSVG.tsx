@@ -1,0 +1,28 @@
+import { SVGIcons } from "./interface";
+import { FC } from "react";
+const ArrowNextSVG: FC<SVGIcons> = ({
+  width = 12,
+  height = 7,
+  className,
+  style,
+}) => {
+  return (
+    <svg
+      width="16"
+      height="14"
+      viewBox="0 0 16 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M15 7L9 13M15 7L9 1M15 7L1 7"
+        stroke="#946EFF"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export default ArrowNextSVG;

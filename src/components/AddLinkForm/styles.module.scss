@@ -1,0 +1,23 @@
+@import "../../App/vars.scss";
+
+.addLinkForm {
+  margin: 8px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  button {
+    margin: 16px 0 0 0;
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    border-radius: 50px;
+    background-color: $theme-color;
+  }
+}
+
+.inputAddLink {
+  margin: 8px 0 0 0;
+}

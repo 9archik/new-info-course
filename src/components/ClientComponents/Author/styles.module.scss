@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  margin: 0 0 0 8px;
+}
+.name {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
+
+.role {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: rgb(139, 139, 139);
+}

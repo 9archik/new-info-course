@@ -1,0 +1,11 @@
+@import "../../App/vars.scss";
+
+.container{
+    padding: 12px;
+    width: 100%;
+    resize: none;
+    border: 0;
+    outline: 0;
+    background-color: $input-bg-color;
+    border-radius: 5px;
+}

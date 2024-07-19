@@ -1,0 +1,34 @@
+@import "../../../../../App/vars.scss";
+
+.imgCont {
+  flex: 1 0 auto;
+  overflow: hidden;
+  z-index: -1;
+  height: calc(100% - 4px);
+  border-radius: 10px;
+  img {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+}
+
+.progress {
+  aspect-ratio: 135/95;
+  width: 100%;
+  position: relative;
+  border: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.progressBar {
+  bottom: 0;
+  height: 4px;
+  left: 0;
+  background-color: $theme-color;
+  border-radius: 10px;
+}
